@@ -1,0 +1,62 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    background-color: teal;
+}
+
+.header-container
+{
+    display: flex; 
+    width: 100vw;
+    height: 17vh;
+    background: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );    
+}
+
+.header-container__logo
+{
+    display: flex; 
+    align-items: center;
+    margin-left: 20px;
+    margin: auto 0;
+    width: 22rem;
+    height: 7rem;
+}
+
+.header-container__logo span
+{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/logo-platzi-video-BW2.png');
+    background-size: 22rem 7rem;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+#icon__google
+{
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/icons8-google-plus-50.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;    
+}
+
+#icon__twitter
+{
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/icons8-twitter-50.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;    
+}
