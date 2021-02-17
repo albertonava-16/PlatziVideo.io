@@ -13,9 +13,9 @@ html
 
 body
 {
-    background-color: #4158D0;
-
+    background: linear-gradient( 180deg,  rgba(177,36,224,1) 5.5%, rgba(75,68,224,0.74) 55.2%, rgba(85,228,224,1) 98.4% );   
 }
+
 
 
 .header-container
@@ -138,14 +138,15 @@ body
     width: 60px;
     height: 40px;
     border-radius: 100px;
+    border: 1px solid black;
     transition: 450ms;
     margin: 0 auto;
-    background-color: rgb(255, 6, 255);
+    background-color: rgb(80, 161, 253);
     background-image: url('../assets/search1.png');
     background-position: center;
     background-size: 50px;
     background-repeat: no-repeat;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .search__input-container:hover
@@ -207,13 +208,13 @@ body
 
 .carousel::-webkit-scrollbar
 {
-    background-color: rgb(177,36,224);
+    background-color: rgb(0, 0, 0);
     height: 3px;
 }
 
 .carousel::-webkit-scrollbar-thumb
 {
-    background-color: rgb(85,228,224);
+    background-color: rgb(225, 225, 226);
 }
 
 .carousel i
@@ -231,11 +232,11 @@ body
 
 .carousel-item
 {
-    width: 200px;
-    height: 250px;
-    border-radius: 20px;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 2rem;
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 1rem;
     display: inline-block;
     cursor: pointer;
     transition: 450ms all;
@@ -246,7 +247,7 @@ body
 
 .carousel-item:hover ~ .carousel-item
 {
-    transform: translate3d(100px, 0, 0);
+    transform: translate3d(10.5rem, 0, 0);
 }
 
 .carousel__container:hover .carousel-item
@@ -262,8 +263,8 @@ body
 
 .carousel-item__img
 {
-    width: 200px;
-    height: 250px;
+    width: 20rem;
+    height: 25rem;
     object-fit: cover;
 }
 
@@ -313,4 +314,21 @@ body
     background-image: url('../assets/Icon-Plus.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.footer
+{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+}
+
+.footer a
+{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
 }
