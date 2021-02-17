@@ -216,6 +216,12 @@ body
     background-color: rgb(85,228,224);
 }
 
+.carousel i
+{
+    color: white;
+    font-size: 15px;
+}
+
 .carousel__container
 {
     white-space: nowrap;
